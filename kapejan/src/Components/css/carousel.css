@@ -1,0 +1,9 @@
+@media (max-height: 600px) {
+    .carousel {
+      width:auto;
+      height:auto;
+    }
+}
+.carousel-item {
+    text-align: center;
+}
