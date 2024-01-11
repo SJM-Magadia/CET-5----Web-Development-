@@ -15,11 +15,11 @@ function HomeNavbar() {
     return (
       <Navbar expand="lg" className="bg-body-tertiary">
         <Container>
-          <Navbar.Brand href="#home"><Image src={kapejan_logo} alt="Logo" /></Navbar.Brand>
+          <Navbar.Brand href="/"><Image src={kapejan_logo} alt="Logo" /></Navbar.Brand>
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
           <Navbar.Collapse id="basic-navbar-nav">
             <Nav className="justify-content-end" style={{ width: "100%" }}>
-                <Nav.Link href="#link">
+                <Nav.Link href="#menu">
                   <Image fluid src={menu_icon_smol} alt="Menu" />
                 </Nav.Link>
                 <Nav.Link href="#link">
